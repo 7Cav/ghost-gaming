@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{@site.locale}}"></html>
+<head>
+
+    {{! Header Content / Meta }}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{asset "css/screen.css"}}">
+    <title>{{meta_title}}</title>
+    {{ghost_head}}
+
+</head>
+<body>
+    {{! body content using dependance on index.hbs }}
+</body>
+<footer>
+    //footer
+    {{ghost_foot}}
+    {{!  standard copyright footer filler }}
+        <div class="g7-copyright">
+            {{@site.title}} © {{date format="YYYY"}}
+        </div>
+</footer>
+
+</html>
